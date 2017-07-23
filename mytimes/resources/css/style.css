@@ -44,53 +44,72 @@ a {
   width: 630px;
   flex-direction: column;
   margin-right: 32px;
-  border: 1px solid black;
 }
 .medium {
   display: flex;
   width: 300px;
-  border: 2px solid black;
   flex-direction: column;
   margin-right: 32px;
 }
 .small {
   display: flex;
   width: 240px;
-  border: 1px solid black;
   flex-direction: column;
 }
 .story {
-  border: 1px solid black;
+
 }
 .narrative {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17;
   color: black;
+  margin-bottom: 17px;
 }
 .news-bites {
-  border: 1px solid black;
-}
-.image-content {
-  font-size: 40px;
-  font-family: Georgia;
-  font-weight: bold;
-  color: white;
 }
 .lead-story .image-content {
+  background-image: url("../images/phish.png");
   font-family: Georgia;
-  font-size: 17;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+}
+.lead-story .narrative {
+  font-family: Georgia;
+  font-size: 17px;
   color: black;
 }
 .pop-culture {
-  background-image: url("/resources/images/cameraman.png");
+  background-image: url("../images/cameraman.png");
   justify-content: center;
   height: 300px;
-}
-.image-content {
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
   color: white;
+  margin-top: 17px;
+}
+.fall-cancelled {
+  background-image: url("../images/backwards.png");
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+  margin-top: 17px;
+}
+.cat-ceo {
+  background-image: url("../images/catceo.png");
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
