@@ -42,6 +42,7 @@ header nav {
   align-items: center;
   padding-top: 69px;
   justify-content: center;
+  flex-direction: column;
 }
 .mission {
   display: flex;
@@ -54,4 +55,17 @@ header nav {
   background-color: black;
   width: 1200px;
   text-align: center;
+}
+.tea {
+  display: block;
+  width: 1000px;
+  align-items: center;
+}
+.menu {
+  text-align: center;
+  padding-top: 50px;
+}
+span img {
+  width: 300px;
+  height: 200px;
 }
