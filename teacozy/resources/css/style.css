@@ -7,6 +7,7 @@ body {
 header {
   display: flex;
   position: fixed;
+  overflow: scroll;
   height: 69px;
   border-bottom: 1px solid seashell;
   color: seashell;
@@ -16,6 +17,7 @@ header {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  background-color: black;
 }
 a {
   color: seashell;
@@ -34,4 +36,22 @@ nav span {
 }
 header nav {
   padding-right: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding-top: 69px;
+  justify-content: center;
+}
+.mission {
+  display: flex;
+  background-image: url("../images/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+.mission .about {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
 }
