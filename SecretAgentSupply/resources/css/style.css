@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-family: helvetica;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+margin-left: 15px;
+}
+.banner {
+  background-image: url(../images/moto.jpeg);
+  height: 25rem;
+}
+.box {
+  width: 360px;
+  height: 9rem;
+  background-color: black;
+}
+nav {
+  background-color: firebrick;
+}
+#bottom {
+  background-color: white;
+}
+.pen {
+  Border: 3px solid black;
+  width: 30%;
+}
+footer {
+  background-color: black;
+}
