@@ -3,33 +3,114 @@ body {
   color: white;
   font-size: 18px;
   font-family: helvetica;
+  line-height: 1.4em;
+  width: 100%;
 }
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.container {
+  width: 960px;
 }
+.company img {
+  height: 1.5rem;
+}
+.top-banner {
+  background-image: url(../images/moto.jpeg);
+  height: 25rem;
+}
+
 .name {
 margin-left: 15px;
 }
 .banner {
   background-image: url(../images/moto.jpeg);
   height: 25rem;
+  width: 100%;
 }
-.box {
-  width: 360px;
-  height: 9rem;
+.headline {
+  width: 20rem;
+  height: 11rem;
   background-color: black;
+  align-items: baseline;
+}
+h4 {
+  margin: 2rem 3rem 0.25rem 3rem;
+}
+h1 {
+  margin: 0 3rem;
+  font-size: 2rem;
+}
+.item {
+
+}
+.new {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.category {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
 }
 nav {
   background-color: firebrick;
 }
-#bottom {
+.items {
+  display: flex;
+  flex-direction: row;
   background-color: white;
 }
-.pen {
-  Border: 3px solid black;
+.item {
+  Border: 4px solid black;
   width: 30%;
+  margin: 3rem 2.5rem;
+  height: 16rem;
+}
+.items img {
+  width: 50%;
+  height: 9rem;
+  align-items: center;
+  padding: 2rem;
+
+}
+.pen {
+  Border: 4px solid black;
+  width: 30%;
+  margin: 3rem 2.5rem;
+  height: 16rem;
+}
+.watch {
+  Border: 4px solid black;
+  width: 30%;
+  height: 16rem;
+  margin: 3rem 2.5rem;
+}
+.glasses {
+  Border: 4px solid black;
+  width: 30%;
+  height: 16rem;
+  margin: 3rem 2.5rem;
+}
+.text {
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  float: bottom;
+}
+span .info {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 1rem 2rem;
+  background-color: black;
+  width: 35%;
+  height: 3.5rem;
+}
+.map {
+  color: black;
+}
+.time {
+  color: black;
 }
 footer {
   background-color: black;
